@@ -1,0 +1,7 @@
+<div>
+  <input [(ngModel)]="title" type="text" class="form-control" placeholder="Title..." #titleInput>
+  <input [(ngModel)]="text" type="text" class="form-control" placeholder="Text..." #textInput>
+  <button (click)="addPost()" class="btn">Add post</button>
+  <button (click)="focusTitle()" class="btn">Focus title</button>
+  <button (click)="focusText()" class="btn">Focus text</button>
+</div>

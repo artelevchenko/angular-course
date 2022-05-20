@@ -1,0 +1,28 @@
+<p>footer works!</p>
+
+<!--<button (click)="baColor = !baColor">Color</button>
+<button (click)="baColor = 111">Green</button>
+
+<div [ngStyle]="{
+  width: '200px',
+  height: '200px',
+  color: 'white',
+  backgroundColor: baColor ? 'red' : 'blue'
+}">Hell</div>
+
+<input type="text" [(ngModel)]="title">
+<p>{{title}}</p>
+
+<div [ngSwitch]="baColor">
+  <p *ngSwitchCase="true" class="red">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+  <p *ngSwitchCase="false" class="blue">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+  <p *ngSwitchDefault class="green">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+</div>-->
+
+
+<p>USB flash</p>
+<ul style="list-style: none">
+  <li *ngFor="let num of arr; let i = index">
+    {{i + 1}} <b>{{num}} Gb</b>
+  </li>
+</ul>
